@@ -9,9 +9,9 @@ class Strings {
   static const String continue_ = 'Continue';
   static const String cancel = 'Cancel';
   static const String unKnownError = 'Unknown Error';
-  static const String nigerianLocale = 'en-ZA';
+  static const String nigerianLocale = 'en-NG';
 
-  static const String zar = 'ZAR';
+  static const String ngn = 'NGN';
   static const String noAccessCodeReference =
       'Pass either an access code or transaction '
       'reference';
