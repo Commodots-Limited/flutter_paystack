@@ -18,8 +18,7 @@ class Utils {
 
   static String formatAmount(num amountInBase) {
     if (_currencyFormatter == null) throw "Currency formatter not initialized.";
-    //return _currencyFormatter!.format((amountInBase / 150));
-    return _currencyFormatter!.format((amountInBase));
+    return _currencyFormatter!.format((amountInBase)/100);
   }
 
   /// Add double spaces after every 4th character
